@@ -8,6 +8,10 @@ def shuffled_deck():
 #Arguements: None
 #Purpose: If a player want to play a game of I declare war, this function will provide them with the necessities.
 #Lines 88-91: Asks for player input about if they want to play a game of I declare war.
+#18 and 19 - Ask the players for their names
+#21 and 22 - The lists that holds each player's points
+#23 to 55 - Draws a card for each player, determines if one card is greater than another then proceeds to allocate score to the player of the winning round. Continue drawing cards for each player until the deck runs out of cards.
+#55 to 60 - Decides and prints out the winner of the game overall.
 
 def I_Declare_war():
   a = shuffled_deck()
